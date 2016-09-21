@@ -1,37 +1,48 @@
 ul {
-	font-size: 0;
-	list-style: none;
-	width: 100%;
+  font-size: 0;
+  list-style: none;
+  width: 100%;
   padding-left: 0px;
 }
 
 ul li {
-	background: #A9A9A9;
-	display: inline-block;
-	width: 33.3%;
+  background: #A9A9A9;
+  display: inline-block;
+  width: 33.3%;
+}
+
+ul li:hover {
+  background: #cdc8c8;
 }
 
 ul li img {
-	opacity: 0.5;
-	width: 100%;
+  opacity: 0.5;
+  width: 100%;
 }
 
 ul li.feature {
-	background: #708090;
-	float: left;
-	width: 66.6%;
+  background: #708090;
+  float: left;
+  width: 66.6%;
+}
+
+ul li.feature:hover {
+  background: #95a4b2;
 }
 
 ul li.two {
-	background: #2F4F4F;
+  background: #2F4F4F;
+}
+ul li.two:hover {
+  background: #668989;
 }
 
 @media (max-width: 640px) {
-	ul li {
-		width: 100%;
-	}
+ul li {
+  width: 100%;
+}
 
-	ul li.feature {
-		width: 100%;
-	}
+ul li.feature {
+  width: 100%;
+   }
 }
